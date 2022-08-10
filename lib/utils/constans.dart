@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+Color appBarColor = const Color(0xff1f2235);
 TextStyle kTextStyle(
     {Color? color, double size = 14, FontWeight fontWeight = FontWeight.w500, double? letterSpacing, double? height}) {
   return TextStyle(
@@ -29,3 +30,4 @@ ButtonStyle buttonStyle({
         RoundedRectangleBorder(borderRadius: BorderRadius.circular(borderRadius ?? 0), side: side ?? BorderSide.none),
       ));
 }
+
